@@ -1,0 +1,69 @@
+
+
+{
+    box.sizing: border-box;
+
+}
+
+.login{
+    background: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.loginpic {
+    margin-top: 20px;
+    margin-bottom: 15 px;
+    margin-right: auto;
+    margin-left: auto;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginpic > img{
+    width: 300px;
+
+}
+.logincontainer{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 0px 1px 2px 3px rgba(0,0,0,0.1);
+    border: 1px solid lightgray ;
+}
+
+.logincontainer > form > input:focus{
+    border: 2px solid orange;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+}
+
+.logincontainer > p{
+    margin-top: 15px;
+    font-size: 12px;
+    justify-content: justify;
+}
+
+a.int{
+    cursor: pointer;
+    color:blueviolet;
+    text-decoration: none;
+}
+a.int:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.loginbutton{
+    cursor: pointer;
+    color: blue;
+    background-color:blue;
+    background-image: linear-gradient(60deg,);
+
+}
+
